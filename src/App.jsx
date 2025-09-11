@@ -43,7 +43,24 @@ export default function App() {
             <img src={logo} alt="Orsea Logo" className="logo-svg" />
             <h1 className="logo">Orsea</h1>
           </div>
+          <div>
           <div className="phone">📞 +971-XXX-XXXXXXX</div>
+          <div className="phone" style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+              <a
+                href="https://wa.me/971XXXXXXXXX"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                  alt="WhatsApp"
+                  style={{ width: "22px", verticalAlign: "middle" }}
+                />
+              </a>
+              <span>+971-XXX-XXXXXXX</span>
+            </div>
+            </div>
         </div>
       </header>
 
